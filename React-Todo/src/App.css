@@ -40,3 +40,69 @@
 .read-the-docs {
   color: #888;
 }
+
+.app{
+  align-content: center;
+}
+
+body{
+  background-color: #363636;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-size: xx-large;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #242F40;
+  background-color: #242F40;
+  color: #CCA43B;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  color: #CCA43B;
+}
+
+input {
+  padding: 20px;
+  margin: 5px;
+  width: 40%;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #242F40;
+  border-radius: 5px;
+  box-shadow: none;
+}
+input:focus {
+  border-color: #CCA43B;
+  box-shadow: 0 0 2px #CCA43B;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  padding: 3px 10%;
+  margin: 2%;
+  background-color: #CCA43B;
+  color: #242F40;
+  font-size: large;
+  font-family: Arial, serif;
+}
+
+.TodoList{
+  border-radius: 5px;
+  padding: 3px 20%;
+  background-color: #363636;
+}
